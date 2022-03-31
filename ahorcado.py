@@ -19,7 +19,7 @@ def runCode(data):
     with open('./datos/inflacion.json', 'r', encoding='utf-8') as f:
         dataTotal = json.load(f)
         l = 'Para esta fecha la inflacion total es de: '
-        o = ' EA'
+        o = ' EA, segun BANREP'
         u = """
 ---------------------------------------------
             Prueba con otra fecha
